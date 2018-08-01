@@ -1,0 +1,6 @@
+jobs:
+    main:
+        requires: [~commit]
+        image: node:6
+        steps:
+            - init: pwd
